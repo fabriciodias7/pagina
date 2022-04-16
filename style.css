@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  background: linear-gradient(236.85deg, #11233e 27.26%, #84aedf 96.03%);
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  background: #96bcd8;
+  color: #1c1c1c;
+  margin: 42px;
+  border-radius: 15px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  padding: 52px;
+}
+img {
+  max-width: 640px;
+  transform: translatey(0px);
+  animation: float 5s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-30px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+  align-itens: right;
+}
+
+.perfil-foto {
+  border-radius: 200px;
+  max-height: 150px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.redes {
+  max-height: 40px;
+}
+.redes2 {
+  max-height: 33px;
+}
+
+.titulo {
+  margin-left: 16px;
+  align-itens: right;
+}
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+  align-itens: right;
+}
+
+.titulo h3 {
+  font-weight: 400;
+  font-size: 24px;
+  align-itens: right;
+}
+
+.tema button {
+  align-self: flex-end;
+  font-size: 24px;
+  font-weight: 400;
+  padding: 8px 16px;
+  background: #96bcd8;
+  border-radius: 100px;
+}
+.links {
+  font-weight: 400;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(230.65deg, #499cfe 27.49%, #9ccbfc 83.19%);
+  margin-top: 32px;
+  padding: 32px;
+  borde-radius: 20px;
+  border-shadow: 2px 2px 4px rgba(10, 16, 10, 0.42);
+}
+
+.projetos-titulo {
+  list-style: none;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.projeto-itens {
+  list-style-type: none;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 42px;
+}
+
+.projeto-itens a {
+  color: #1c1c1c;
+}
+
+.dark {
+  background: linear-gradient(236.85deg, #030303 27.26%, #363636 96.03%);
+}
+
+.dark .container {
+  background: #333439;
+  color: #f8f8f8;
+}
+
+.dark .projeto-itens a {
+  color: #ffffff;
+}
+
+.dark .tema button {
+  background: #363636;
+  color: #ffffff;
+  border: 2px solid #f7f7f7;
+}
